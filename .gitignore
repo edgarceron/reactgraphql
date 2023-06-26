@@ -1,0 +1,34 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+*/node_modules
+*/.pnp
+.pnp.js
+
+# testing
+*/coverage
+
+# production
+*/build
+
+# misc
+graphql-recipe-server/.DS_Store
+graphql-recipe-server/.env.local
+graphql-recipe-server/.env.development.local
+graphql-recipe-server/.env.test.local
+graphql-recipe-server/.env.production.local
+
+graphql-recipe-server/npm-debug.log*
+graphql-recipe-server/yarn-debug.log*
+graphql-recipe-server/yarn-error.log*
+
+
+reactfirst/.DS_Store
+reactfirst/.env.local
+reactfirst/.env.development.local
+reactfirst/.env.test.local
+reactfirst/.env.production.local
+
+reactfirst/npm-debug.log*
+reactfirst/yarn-debug.log*
+reactfirst/yarn-error.log*
